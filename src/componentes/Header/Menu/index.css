@@ -1,0 +1,21 @@
+nav{
+
+}
+ul{
+
+}
+li{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+a{
+    color: saddlebrown;
+}
+a:hover{
+    color: aliceblue;
+}
