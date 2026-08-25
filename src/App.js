@@ -10,16 +10,16 @@ import Sobre from './paginas/Sobre';
 function App() {
   return (
     <BrowserRouter>
-    <Header />
-    <main>
-      <Route path="/" element={<Home />}/>
-      <Route path="/contato" element={<Contato />}/>
-      <Route path="/sobre" element={<Sobre />}/>
-      </Routes>
-    </main>
-    <Footer />
+      <Header />
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contato" element={<Contato />} />
+          <Route path="/sobre" element={<Sobre />} />
+        </Routes>
+      </main>
+      <Footer />
     </BrowserRouter>
- 
   );
 }
 
