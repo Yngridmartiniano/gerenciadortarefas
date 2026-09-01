@@ -1,0 +1,100 @@
+/* ==========================================================================
+   ESTILOS GERAIS E ESTRUTURA BASE
+   ========================================================================== */
+   main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: system-ui, -apple-system, sans-serif;
+    color: #2d3748;
+}
+
+header {
+    width: 100%;
+    padding: 15px 0;
+    border-bottom: 2px solid #800606;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    color: #800606;
+    font-size: 1.8rem;
+    letter-spacing: -0.5px;
+    margin: 0;
+}
+
+section {
+    margin-top: 30px;
+}
+
+/* Contagem / Resumo de Tarefas */
+section p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #4a5568;
+    margin-bottom: 15px;
+}
+
+/* ==========================================================================
+   TABELA DE TAREFAS
+   ========================================================================== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabeçalho da Tabela */
+thead {
+    background-color: #800606;
+    color: #ffffff;
+}
+
+th {
+    padding: 14px 16px;
+    text-align: left;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+/* Corpo da Tabela */
+td {
+    padding: 14px 16px;
+    font-size: 0.95rem;
+    color: #2d3748;
+    border-bottom: 1px solid #e2e8f0;
+    transition: background-color 0.2s ease;
+}
+
+/* Efeito ao passar o mouse nas linhas */
+tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+tbody tr:hover {
+    background-color: #f7fafc;
+}
+
+/* Ajustes de colunas específicas */
+td:first-child, th:first-child {
+    font-weight: bold;
+    width: 80px;
+}
+
+/* Coluna 'VER' estilo ação */
+td:last-child {
+    color: #800606;
+    font-weight: 600;
+    cursor: pointer;
+    width: 80px;
+}
+
+td:last-child:hover {
+    text-decoration: underline;
+}
