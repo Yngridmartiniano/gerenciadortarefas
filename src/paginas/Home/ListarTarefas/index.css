@@ -98,3 +98,11 @@ td:last-child {
 td:last-child:hover {
     text-decoration: underline;
 }
+
+a{
+    color: #000000;
+}
+
+a.hover{
+    color: red;
+}
