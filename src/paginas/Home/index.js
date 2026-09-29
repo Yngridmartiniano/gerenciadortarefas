@@ -1,5 +1,5 @@
 import './index.css'
-import ListarTarefas from './ListarTarefas';
+
 
 function Home() {
     return(
@@ -8,7 +8,7 @@ function Home() {
             <h1>Home</h1>
             </header>
         <section>
-            <ListarTarefas />
+      
         </section>
         </main>
     )

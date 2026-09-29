@@ -7,7 +7,7 @@ import Home from './paginas/Home';
 import Contato from './paginas/Contato';
 import Sobre from './paginas/Sobre';
 import ListarUmaTarefa from './paginas/ListarUmaTarefa';
-import ListarTarefas from './paginas/Home/ListarTarefas';
+import ListarTarefas from './paginas/ListarTarefas';
 import CadastrarTarefas from './paginas/CadastrarTarefas';
 
 function App() {
@@ -19,9 +19,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/contato" element={<Contato />} />
           <Route path="/sobre" element={<Sobre />} />
-          <Route path="/tarefa" element={<ListarTarefas />}/>
+          <Route path="/tarefas" element={<ListarTarefas />}/>
           <Route path="/tarefa/:id" element={<ListarUmaTarefa />}/>
-          <Route path="/cadastarTarefa" element={<CadastrarTarefas />}/>
+          <Route path="/cadastrarTarefa" element={<CadastrarTarefas />}/>
         </Routes>
       </main>
       <Footer />
